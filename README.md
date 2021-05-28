@@ -65,3 +65,22 @@ W = { (1, 2, 3), (1, 3, 2), (2, 1, 3),
 ```
 
 Therefore, `P(W) = 1/18 + 1/18 + 1/18 + 1/18 + 1/18 + 1/18 = 6/18 =1/3`
+
+
+## Conclusion
+If we compare two different situations, one where Monty knows which door has the car behind it and  
+the other where Monty does not know, and where the player swaps doors every time for both of these,  
+we see distinct differences in results. According to our results in both situations, one bears a  
+greater probability of success for the player. If Monty is totally aware of which door contains the  
+car the player has a greater chance of succeeding since they aren’t playing against Monty who could  
+actually reveal the door that contains the car. The situation where Monty is not aware of which door  
+has the car behind it adds six outcomes all where Monty opens a door and reveals the car. Therefore,  
+this discussion of whether or not Monty knows which door contains the car is important because of the  
+difference in outcomes. Additionally, when looking at the actual probabilities, for every situation we  
+must consider the fact that Monty did not open the door with the car. This differs from the situation  
+where Monty does know which door contains the car and avoids opening it. Since people are skeptical  
+overall of how the probability is known to be higher when the player switches doors, it is important  
+to note that this does not work when Monty Hall does not know which door contains the car. As stated  
+above, this adds six more outcomes that result in a higher chance of losing than actually winning.  
+Based on our analysis, it shows that the probability is higher when the player switches doors which is  
+inaccurate when assuming Monty does not know which door has the car. 
