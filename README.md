@@ -13,15 +13,55 @@ several assumptions made in the Monty Hall problem, such as:
 3. There is an equal chance of the car being behind any of the doors. 
 
 ## Player Switches Doors Every Time
-...
+A = Picking one of three doors = 1/3  
+B = Car is behind chosen door = 1/3  
+C = Monty’s choice of doors to invalidate = 1/2  
+
 ![Switch](/img/does_switch.png)
 
+```
+S = { ( 1, 3, 1 ), ( 1, 3, 2 ), ( 1, 2, 1 ), ( 1, 2, 3 ),  
+      ( 2, 3, 1 ), ( 2, 3, 2 ), ( 2, 1, 3 ), ( 2, 3, 2 ),  
+      ( 3, 2, 1 ), ( 3, 2, 3 ), ( 3, 1, 3 ), ( 3, 1, 2 ) } = 12 total outcomes  
+
+W = { ( 1, 3, 2 ), ( 1, 2, 3 ), ( 2, 3, 1 ),  
+      ( 2, 1, 3 ), ( 3, 2, 1 ), ( 3, 1, 2 )  } = 6 outcomes  
+```
+
+Therefore, `P(W) = 1/9 + 1/9 + 1/9 + 1/9 + 1/9 + 1/9 = 6/9`  
+
 ## Player Does Not Switch Doors Every Time
-...
+A = Picking one of three doors = 1/3  
+B = Car is behind chosen door = 1/3  
+C = Monty’s choice of doors to invalidate = 1/2  
+
 ![Does Not Switch](/img/does_not_switch.png)
 
+```
+S = { ( 1, 3, 1 ), ( 1, 3, 2 ), ( 1, 2, 1 ), ( 1, 2, 3 ),  
+      ( 2, 3, 1 ), ( 2, 3, 2 ), ( 2, 1, 3 ), ( 2, 3, 2 ),  
+      ( 3, 2, 1 ), ( 3, 2, 3 ), ( 3, 1, 3 ), ( 3, 1, 2 ) } = 12 total outcomes  
+
+W = { (1, 3, 1), (1, 2, 1), (2, 3, 2),  
+      (2, 1, 2), (3, 2, 3), (3, 1, 3) } = 6 outcomes  
+```
+
+Therefore, `P(W) = 1/18 + 1/18 + 1/18 + 1/18 + 1/18 + 1/18 = 6/18 = 1/3`
+
 ## Host Randomly Picks Door
-...
+A = Picking one of three doors = 1/3
+B = Car is behind chosen door = 1/3
+C = Monty’s choice of doors to invalidate = 1/2
+
 ![Host Picks Door](img/host_picks_door.png)
 
+```
+S = { (1, 2, 2), (1, 2, 3), (1, 2, 1), (1, 3, 2), (1, 3, 3), (1, 3, 1),  
+      (2, 1, 1), (2, 1, 3), (2, 1, 2), (2, 3, 3), (2, 3, 1), (2, 3, 2),  
+      (3, 1, 1), (3, 1, 2), (3, 1, 3), (3, 2, 1), (3, 2, 3), (3, 2, 2) } = 18 total outcomes  
+  
+W = { (1, 2, 3), (1, 3, 2), (2, 1, 3),  
+      (2, 3, 1), (3, 1, 2), (3, 2, 1) } = 6 total outcomes
+```
 
+Therefore, `P(W) = 1/18 + 1/18 + 1/18 + 1/18 + 1/18 + 1/18 = 6/18 =1/3`
