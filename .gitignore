@@ -1,0 +1,14 @@
+# MacOS
+.DS_Store
+
+# Virtual Environment
+env
+
+# Visual Studio Code
+.vscode
+
+# Git
+.git
+
+# Python
+__pycache__
