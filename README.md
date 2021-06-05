@@ -2,10 +2,13 @@
 
 ## Contents
 - [Description](https://github.com/maknop/monty-hall-problem/blob/main/README.md#description)
-- [Player Switches Doors](https://github.com/maknop/monty-hall-problem/blob/main/README.md#player-switches-doors)
-- [Player Does Not Switch Doors](https://github.com/maknop/monty-hall-problem/blob/main/README.md#player-does-not-switch-doors)
-- [Host Randomly Picks Door](https://github.com/maknop/monty-hall-problem/blob/main/README.md#host-randomly-picks-door)
+- [Assumptions](https://github.com/maknop/monty-hall-problem/blob/main/README.md#assumptions)  
+    - [Player Switches Doors](https://github.com/maknop/monty-hall-problem/blob/main/README.md#player-switches-doors)  
+    - [Player Does Not Switch Doors](https://github.com/maknop/monty-hall-problem/blob/main/README.md#player-does-not-switch-doors)  
+    - [Host Randomly Picks Door](https://github.com/maknop/monty-hall-problem/blob/main/README.md#host-randomly-picks-door)  
 - [Run Experiment](https://github.com/maknop/monty-hall-problem/blob/main/README.md#run-experiment)
+    - [Installation](https://github.com/maknop/monty-hall-problem/blob/main/README.md#installation)
+    - [Running Program](https://github.com/maknop/monty-hall-problem/blob/main/README.md#running-program)
 - [Conclusion](https://github.com/maknop/monty-hall-problem/blob/main/README.md#conclusion)
 
 ## Description
@@ -20,7 +23,9 @@ several assumptions made in the Monty Hall problem, such as:
 2. The door Monty opens will not be the one you chose and does not contain the car. 
 3. There is an equal chance of the car being behind any of the doors. 
 
-## Player Switches Doors
+## Various Assumptions
+
+### Player Switches Doors
 A = Picking one of three doors = 1/3  
 B = Car is behind chosen door = 1/3  
 C = Monty’s choice of doors to invalidate = 1/2  
@@ -38,7 +43,7 @@ W = { ( 1, 3, 2 ), ( 1, 2, 3 ), ( 2, 3, 1 ),
 
 Therefore, `P(W) = 1/9 + 1/9 + 1/9 + 1/9 + 1/9 + 1/9 = 6/9`  
 
-## Player Does Not Switch Doors
+### Player Does Not Switch Doors
 A = Picking one of three doors = 1/3  
 B = Car is behind chosen door = 1/3  
 C = Monty’s choice of doors to invalidate = 1/2  
@@ -56,7 +61,7 @@ W = { (1, 3, 1), (1, 2, 1), (2, 3, 2),
 
 Therefore, `P(W) = 1/18 + 1/18 + 1/18 + 1/18 + 1/18 + 1/18 = 6/18 = 1/3`
 
-## Host Randomly Picks Door
+### Host Randomly Picks Door
 A = Picking one of three doors = 1/3
 B = Car is behind chosen door = 1/3
 C = Monty’s choice of doors to invalidate = 1/2
